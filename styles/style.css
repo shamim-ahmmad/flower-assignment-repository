@@ -1,3 +1,7 @@
+/* font style for all wbsite  */
+body {
+  font-family: "Roboto", sans-serif;
+}
 header {
   background: rgba(229, 84, 115, 0.1);
 }
@@ -76,4 +80,36 @@ header {
 }
 .manu-column {
   padding: 86px 100px 86px 175px;
+}
+/* deal offer section  */
+.deal-container {
+  display: flex;
+  gap: 186px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  height: 620px;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  /* text-align: center; */
+  font-size: 18px;
+  font-weight: 40;
+}
+.deal-offer {
+  padding-left: 395px;
+  text-align: center;
+}
+.deal-image {
+  padding-right: 429px;
+}
+.deal-btn {
+  padding: 20px 43px;
 }
