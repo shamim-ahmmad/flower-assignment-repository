@@ -8,12 +8,16 @@ header {
 /* banner-section  */
 .banner-container {
   display: flex;
+  gap: 97px;
 }
 .banner-column {
   margin: 197px 97px 147px 240px;
 }
 .banner-image {
+  width: 635px;
+  height: 800px;
   margin: 50px 240px 0px 0px;
+  padding-bottom: 0px;
 }
 .banner-title {
   color: #272727;
@@ -99,9 +103,9 @@ header {
 }
 .deal-description {
   color: rgba(39, 39, 39, 0.6);
-  /* text-align: center; */
   font-size: 18px;
   font-weight: 40;
+  margin-top: 24px;
 }
 .deal-offer {
   padding-left: 395px;
@@ -112,4 +116,59 @@ header {
 }
 .deal-btn {
   padding: 20px 43px;
+  margin-top: 32px;
+}
+/* instagram cetagory  */
+.instagram-item {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.instagram-title {
+  text-align: center;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram-message {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 663px 48px;
+}
+/* latest deal section  */
+.latest-deal {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  /* background-position: center; */
+  margin: 124px 240px;
+}
+.deal-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 132px;
+}
+.deal-coupon {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-weight: 400;
+}
+.submit-form {
+  text-align: center;
+  margin: 48px;
+  margin-bottom: 121px;
+}
+.email-submit {
+  width: 700px;
+  /* height: 64px; */
+  padding: 23px 22px;
+}
+.btn-submit {
+  height: 64px;
+  padding: 19px 31px;
 }
