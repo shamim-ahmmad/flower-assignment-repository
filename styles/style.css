@@ -17,7 +17,7 @@ header {
   width: 635px;
   height: 800px;
   margin: 50px 240px 0px 0px;
-  padding-bottom: 0px;
+  /* padding-bottom: -80px; */
 }
 .banner-title {
   color: #272727;
@@ -80,7 +80,7 @@ header {
   gap: 100px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  margin: 170px 240px;
+  margin: 170px 280px;
 }
 .manu-column {
   padding: 86px 100px 86px 175px;
@@ -124,6 +124,7 @@ header {
   gap: 24px;
   justify-content: center;
   align-items: center;
+  margin: 0px 280px;
 }
 .instagram-title {
   text-align: center;
@@ -144,7 +145,7 @@ header {
   background-repeat: no-repeat;
   height: 500px;
   /* background-position: center; */
-  margin: 124px 240px;
+  margin: 124px 270px;
 }
 .deal-title {
   color: #272727;
@@ -167,8 +168,34 @@ header {
   width: 700px;
   /* height: 64px; */
   padding: 23px 22px;
+  border: none;
 }
 .btn-submit {
   height: 64px;
   padding: 19px 31px;
+  border: none;
+  margin-left: 16px;
+}
+/* footer section  */
+footer {
+  background: #3a3939;
+  height: 500px;
+  text-align: center;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 128px;
+}
+.footer-content {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 24px 648px;
+}
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
 }
