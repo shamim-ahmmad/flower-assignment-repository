@@ -144,7 +144,6 @@ header {
   background-image: url("../images/Rectangle\ 9.png");
   background-repeat: no-repeat;
   height: 500px;
-  /* background-position: center; */
   margin: 124px 270px;
 }
 .deal-title {
@@ -166,7 +165,6 @@ header {
 }
 .email-submit {
   width: 700px;
-  /* height: 64px; */
   padding: 23px 22px;
   border: none;
 }
@@ -175,6 +173,27 @@ header {
   padding: 19px 31px;
   border: none;
   margin-left: 16px;
+}
+/* extra my crushed flower  */
+.flower-container {
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+}
+.flower-item img {
+  border-radius: 30%;
+}
+.flower-item .image-2 {
+  border-radius: 70%;
+}
+.flower-title {
+  text-align: center;
+  font-size: 67px;
+  font-weight: 400px;
+}
+.flower-post {
+  text-align: center;
+  padding: 0px 663px 19px;
 }
 /* footer section  */
 footer {
